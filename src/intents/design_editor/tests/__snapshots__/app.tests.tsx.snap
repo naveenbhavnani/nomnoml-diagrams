@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hello World Tests should have a consistent snapshot 1`] = `
+exports[`Nomnoml Diagrams App should have a consistent snapshot 1`] = `
 <div>
   <div
     class="scrollContainer"
@@ -9,15 +9,551 @@ exports[`Hello World Tests should have a consistent snapshot 1`] = `
       class="jv_R6g"
       style="--NZu1Zw: 16px;"
     >
-      <p
-        class="aWBg0w aZskFA u16U_g"
+      <div
+        class="jv_R6g"
+        style="--NZu1Zw: 8px;"
       >
-        To make changes to this app, edit the 
-        <code>
-          src/app.tsx
-        </code>
-         file, then close and reopen the app in the editor to preview the changes.
-      </p>
+        <label
+          for="_r_n_"
+          id="_r_k_"
+        >
+          <span
+            class="VgvqkQ aZskFA u16U_g jnz76g"
+          >
+            Diagram code
+          </span>
+        </label>
+        <div
+          class="SNEyeQ zza16Q Pe8c4g"
+        >
+          <textarea
+            class="bCVoGQ aWBg0w _9EWwZA"
+            dir="auto"
+            id="_r_n_"
+            placeholder="Enter nomnoml syntax..."
+            rows="9"
+          >
+            [User|
+  name: string
+  email: string
+  |
+  login()
+  logout()
+]
+
+[User] -&gt; [Session]
+[Session] -&gt; [Database]
+          </textarea>
+          <textarea
+            aria-hidden="true"
+            class="bCVoGQ aWBg0w _9EWwZA oTXtbA"
+            dir="auto"
+            readonly=""
+            rows="1"
+          >
+            [User|
+  name: string
+  email: string
+  |
+  login()
+  logout()
+]
+
+[User] -&gt; [Session]
+[Session] -&gt; [Database]
+          </textarea>
+        </div>
+      </div>
+      <a
+        class="Ej7lEg WkdUeQ _3bC2IQ"
+        draggable="false"
+        href="https://nomnoml.com"
+        rel="noopener noreferrer"
+        role="button"
+        target="_blank"
+      >
+        Nomnoml syntax reference
+        <span
+          class="b_Y0Sw"
+        >
+          ⁠
+          <span
+            aria-hidden="true"
+            class="uRWxVA dkWypw lmfTqA"
+          >
+            <svg
+              fill="currentColor"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.625 4.25a.375.375 0 0 0-.375.375v7.75c0 .207.168.375.375.375h7.75a.375.375 0 0 0 .375-.375V10.04a.625.625 0 1 1 1.25 0v2.335c0 .898-.727 1.625-1.625 1.625h-7.75A1.625 1.625 0 0 1 2 12.375v-7.75C2 3.728 2.728 3 3.625 3h2.336a.625.625 0 0 1 0 1.25H3.625z"
+              />
+              <path
+                d="M14.817 1.183a.625.625 0 0 1 0 .884l-6.75 6.75a.625.625 0 1 1-.884-.884l6.75-6.75a.625.625 0 0 1 .884 0z"
+              />
+              <path
+                d="M9.25 1.625c0-.345.28-.625.625-.625h4.5c.345 0 .625.28.625.625v4.5a.625.625 0 1 1-1.25 0V2.25H9.875a.625.625 0 0 1-.625-.625z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          class="V5YmAg"
+          id="_r_o_"
+        >
+          ⁠
+          <span
+            class="_pFsfA"
+          >
+            (opens in a new tab or window)
+          </span>
+        </span>
+      </a>
+      <h4
+        class="_5Gynyg aZskFA u16U_g"
+      >
+        Preview
+      </h4>
+      <div
+        class="BMOCzQ jhljBg _4tv94w rCi29A t5bJ2A EC2pjw LuBWVA"
+        style="--gms-pw: 8px;"
+      >
+        <div
+          class="diagramPreview"
+        >
+          <svg
+            baseProfile="full"
+            height="328.0"
+            version="1.1"
+            viewBox="0 0 170 328"
+            width="170.0"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:ev="http://www.w3.org/2001/xml-events"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            
+	
+            <desc>
+              [User|
+	  name: string
+	  email: string
+	  |
+	  login()
+	  logout()
+	]
+	
+	[User] -&gt; [Session]
+	[Session] -&gt; [Database]
+            </desc>
+            
+	
+            <g
+              font="12pt Helvetica, Arial, sans-serif"
+              font-family="Helvetica"
+              font-size="12pt"
+              font-style="normal"
+              font-weight="bold"
+              stroke-width="1.0"
+              text-align="left"
+            >
+              
+		
+              <g
+                font-family="Helvetica"
+                font-size="12pt"
+                font-style="normal"
+                font-weight="bold"
+                stroke="#33322E"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3.0"
+              >
+                
+			
+                <g
+                  fill="transparent"
+                  stroke="transparent"
+                >
+                  
+				
+                  <rect
+                    height="328.0"
+                    stroke="none"
+                    width="170.0"
+                    x="0.0"
+                    y="0.0"
+                  />
+                  
+			
+                </g>
+                
+			
+                <g
+                  fill="#33322E"
+                  transform="translate(8, 8)"
+                >
+                  
+				
+                  <g
+                    fill="#33322E"
+                    font-family="Helvetica"
+                    font-size="12pt"
+                    font-style="normal"
+                    font-weight="normal"
+                    transform="translate(20, 20)"
+                  >
+                    
+					
+                    <path
+                      d="M57.0 128.0 L57 148 L57 161.33333333333334 L57.0 161.3 "
+                      fill="none"
+                    />
+                    
+					
+                    <path
+                      d="M51.7 154.7 L57.0 161.3 L62.3 154.7 L57.0 168.0 Z"
+                    />
+                    
+					
+                    <path
+                      d="M57.0 200.0 L57 220 L57 233.33333333333334 L57.0 233.3 "
+                      fill="none"
+                    />
+                    
+					
+                    <path
+                      d="M51.7 226.7 L57.0 233.3 L62.3 226.7 L57.0 240.0 Z"
+                    />
+                    
+					
+                    <g
+                      data-name="User"
+                    >
+                      
+						
+                      <g
+                        data-name="User"
+                        fill="#eee8d5"
+                        stroke="#33322E"
+                      >
+                        
+							
+                        <rect
+                          data-name="User"
+                          height="128.0"
+                          width="114.0"
+                          x="0.0"
+                          y="0.0"
+                        />
+                        
+							
+                        <path
+                          d="M0.0 32.0 L114.0 32.0"
+                          data-name="User"
+                          fill="none"
+                        />
+                        
+							
+                        <path
+                          d="M0.0 80.0 L114.0 80.0"
+                          data-name="User"
+                          fill="none"
+                        />
+                        
+						
+                      </g>
+                      
+						
+                      <g
+                        data-compartment="0"
+                        data-name="User"
+                        font-family="Helvetica"
+                        font-size="12pt"
+                        font-style="normal"
+                        font-weight="bold"
+                        transform="translate(0, 0)"
+                      >
+                        
+							
+                        <g
+                          data-compartment="0"
+                          data-name="User"
+                          fill="#33322E"
+                          text-align="center"
+                          transform="translate(8, 8)"
+                        >
+                          
+								
+                          <text
+                            data-compartment="0"
+                            data-name="User"
+                            stroke="none"
+                            text-anchor="middle"
+                            x="49.0"
+                            y="14.1"
+                          >
+                            User
+                          </text>
+                          
+								
+							
+                        </g>
+                        
+						
+                      </g>
+                      
+						
+                      <g
+                        data-compartment="1"
+                        data-name="User"
+                        font-family="Helvetica"
+                        font-size="12pt"
+                        font-style="normal"
+                        font-weight="normal"
+                        transform="translate(0, 32)"
+                      >
+                        
+							
+                        <g
+                          data-compartment="1"
+                          data-name="User"
+                          fill="#33322E"
+                          text-align="left"
+                          transform="translate(8, 8)"
+                        >
+                          
+								
+                          <text
+                            data-compartment="1"
+                            data-name="User"
+                            stroke="none"
+                            x="0.0"
+                            y="14.1"
+                          >
+                            name: string
+                          </text>
+                          
+								
+                          <text
+                            data-compartment="1"
+                            data-name="User"
+                            stroke="none"
+                            x="0.0"
+                            y="30.3"
+                          >
+                            email: string
+                          </text>
+                          
+								
+							
+                        </g>
+                        
+						
+                      </g>
+                      
+						
+                      <g
+                        data-compartment="2"
+                        data-name="User"
+                        font-family="Helvetica"
+                        font-size="12pt"
+                        font-style="normal"
+                        font-weight="normal"
+                        transform="translate(0, 80)"
+                      >
+                        
+							
+                        <g
+                          data-compartment="2"
+                          data-name="User"
+                          fill="#33322E"
+                          text-align="left"
+                          transform="translate(8, 8)"
+                        >
+                          
+								
+                          <text
+                            data-compartment="2"
+                            data-name="User"
+                            stroke="none"
+                            x="0.0"
+                            y="14.1"
+                          >
+                            login()
+                          </text>
+                          
+								
+                          <text
+                            data-compartment="2"
+                            data-name="User"
+                            stroke="none"
+                            x="0.0"
+                            y="30.3"
+                          >
+                            logout()
+                          </text>
+                          
+								
+							
+                        </g>
+                        
+						
+                      </g>
+                      
+					
+                    </g>
+                    
+					
+                    <g
+                      data-name="Session"
+                    >
+                      
+						
+                      <g
+                        data-name="Session"
+                        fill="#eee8d5"
+                        stroke="#33322E"
+                      >
+                        
+							
+                        <rect
+                          data-name="Session"
+                          height="32.0"
+                          width="79.0"
+                          x="17.5"
+                          y="168.0"
+                        />
+                        
+						
+                      </g>
+                      
+						
+                      <g
+                        data-compartment="0"
+                        data-name="Session"
+                        font-family="Helvetica"
+                        font-size="12pt"
+                        font-style="normal"
+                        font-weight="bold"
+                        transform="translate(17.5, 168)"
+                      >
+                        
+							
+                        <g
+                          data-compartment="0"
+                          data-name="Session"
+                          fill="#33322E"
+                          text-align="center"
+                          transform="translate(8, 8)"
+                        >
+                          
+								
+                          <text
+                            data-compartment="0"
+                            data-name="Session"
+                            stroke="none"
+                            text-anchor="middle"
+                            x="31.5"
+                            y="14.1"
+                          >
+                            Session
+                          </text>
+                          
+								
+							
+                        </g>
+                        
+						
+                      </g>
+                      
+					
+                    </g>
+                    
+					
+                    <g
+                      data-name="Database"
+                    >
+                      
+						
+                      <g
+                        data-name="Database"
+                        fill="#eee8d5"
+                        stroke="#33322E"
+                      >
+                        
+							
+                        <rect
+                          data-name="Database"
+                          height="32.0"
+                          width="92.0"
+                          x="11.0"
+                          y="240.0"
+                        />
+                        
+						
+                      </g>
+                      
+						
+                      <g
+                        data-compartment="0"
+                        data-name="Database"
+                        font-family="Helvetica"
+                        font-size="12pt"
+                        font-style="normal"
+                        font-weight="bold"
+                        transform="translate(11, 240)"
+                      >
+                        
+							
+                        <g
+                          data-compartment="0"
+                          data-name="Database"
+                          fill="#33322E"
+                          text-align="center"
+                          transform="translate(8, 8)"
+                        >
+                          
+								
+                          <text
+                            data-compartment="0"
+                            data-name="Database"
+                            stroke="none"
+                            text-anchor="middle"
+                            x="38.0"
+                            y="14.1"
+                          >
+                            Database
+                          </text>
+                          
+								
+							
+                        </g>
+                        
+						
+                      </g>
+                      
+					
+                    </g>
+                    
+				
+                  </g>
+                  
+			
+                </g>
+                
+		
+              </g>
+              
+	
+            </g>
+            
+
+          </svg>
+        </div>
+      </div>
       <button
         class="_5KtATA LQzFZw VgvqkQ _8ERLTg rV61VQ LQzFZw VgvqkQ _4_iekA _3oHQrw j34Zww aqbYPg _3FvZZg"
         type="button"
@@ -25,21 +561,10 @@ exports[`Hello World Tests should have a consistent snapshot 1`] = `
         <span
           class="khPe7Q"
         >
-          Do something cool
-        </span>
-      </button>
-      <button
-        class="_5KtATA LQzFZw VgvqkQ _8ERLTg Z3nT2A LQzFZw VgvqkQ _4_iekA j34Zww aqbYPg _3FvZZg"
-        type="button"
-      >
-        <span
-          class="khPe7Q"
-        >
-          Open Canva Apps SDK docs
+          Add to design
         </span>
       </button>
     </div>
   </div>
-  ,
 </div>
 `;

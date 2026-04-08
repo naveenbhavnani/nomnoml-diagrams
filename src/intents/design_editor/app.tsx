@@ -3,12 +3,14 @@ import {
   Box,
   Button,
   FormField,
+  Link,
   MultilineInput,
   Rows,
   Title,
 } from "@canva/app-ui-kit";
 import { upload } from "@canva/asset";
 import { addElementAtCursor, addElementAtPoint } from "@canva/design";
+import { requestOpenExternalUrl } from "@canva/platform";
 import nomnoml from "nomnoml";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useIntl } from "react-intl";
@@ -139,6 +141,18 @@ export const App = () => {
           )}
         />
 
+        <Link
+          href="https://nomnoml.com"
+          requestOpenExternalUrl={() =>
+            requestOpenExternalUrl({ url: "https://nomnoml.com" })
+          }
+        >
+          {intl.formatMessage({
+            defaultMessage: "Nomnoml syntax reference",
+            description: "Link to the nomnoml syntax reference website",
+          })}
+        </Link>
+
         <Title size="small">
           {intl.formatMessage({
             defaultMessage: "Preview",
@@ -176,7 +190,7 @@ export const App = () => {
           }
         >
           {intl.formatMessage({
-            defaultMessage: "Add to Design",
+            defaultMessage: "Add to design",
             description: "Button text to add the diagram to the Canva design",
           })}
         </Button>
