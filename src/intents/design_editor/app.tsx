@@ -67,11 +67,18 @@ export const App = () => {
       const svg = nomnoml.renderSvg(normalizedCode);
       setSvgOutput(svg);
       setError(null);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to render diagram");
+    } catch {
+      setError(
+        intl.formatMessage({
+          defaultMessage:
+            "We couldn't build your diagram. Check your code for typos and try again.",
+          description:
+            "Error shown when the diagram code can't be turned into a diagram",
+        }),
+      );
       setSvgOutput("");
     }
-  }, [normalizedCode]);
+  }, [normalizedCode, intl]);
 
   const handleAddToDesign = useCallback(async () => {
     if (!addElement || !svgOutput) {
@@ -107,9 +114,14 @@ export const App = () => {
       });
 
       await asset.whenUploaded();
-    } catch (err) {
+    } catch {
       setError(
-        err instanceof Error ? err.message : "Failed to add diagram to design",
+        intl.formatMessage({
+          defaultMessage:
+            "We couldn't add your diagram to the design. Check your internet connection and try again.",
+          description:
+            "Error shown when the diagram can't be added to the Canva design",
+        }),
       );
     } finally {
       setIsLoading(false);

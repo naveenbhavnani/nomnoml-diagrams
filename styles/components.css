@@ -3,7 +3,10 @@
   box-sizing: border-box;
   overflow-y: scroll;
   height: 100%;
-  padding: var(--ui-kit-space-200);
+  padding-right: var(--ui-kit-space-200); /* prevent page breaks inside the scroll container */
+  padding-top: var(--ui-kit-space-200);
+  padding-bottom: var(--ui-kit-space-200);
+  page-break-inside: avoid;
 
   /* for firefox */
   scrollbar-width: thin;
